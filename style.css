@@ -1,0 +1,49 @@
+/* ベーススタイル */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .flex {
+    flex-direction: column !important;
+  }
+
+  .max-w-6xl {
+    max-width: 100% !important;
+  }
+
+  .max-w-4xl {
+    max-width: 100% !important;
+  }
+
+  .max-w-md {
+    max-width: 100% !important;
+  }
+
+  .p-4,
+  .p-6,
+  .py-8,
+  .px-4 {
+    padding: 1rem !important;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem !important;
+  }
+
+  .text-xl {
+    font-size: 1.25rem !important;
+  }
+
+  .text-lg {
+    font-size: 1.125rem !important;
+  }
+}
