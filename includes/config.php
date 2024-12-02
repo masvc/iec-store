@@ -1,3 +1,5 @@
+// 実際は.git ignoreをする
+
 <?php
 // データベース設定
 define('DB_HOST', 'localhost');
